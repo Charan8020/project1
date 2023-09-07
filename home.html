@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Crimson+Text:ital@1&family=Indie+Flower&family=Kalam&family=Metal&family=Nanum+Myeongjo&family=Playfair+Display&family=Roboto+Condensed&family=Roboto:wght@300;400&family=Seaweed+Script&family=Text+Me+One&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/af2b2b989f.js" crossorigin="anonymous"></script>
+<style>
+    body{margin:0;
+    font-family: 'Playfair Display', serif;
+    background-color: #f0f0f0;
+    }
+  img{width: 100%; max-height: 100%; overflow: hidden;display: block; }
+
+  * {
+    box-sizing: border-box;
+    margin: 0 auto;
+} 
+  .p{
+    background-color: #5cb2e8;
+    padding-bottom: 30px;
+    padding-top:10px;
+  }
+  .c1{
+    padding-left: 10px;
+    background-color: #5cb2e8;
+    float:left;
+  }
+  
+  .c2{
+    padding-right:10px;
+    background-color: #5cb2e8;
+    float:right;
+  }
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
+        /* Style for the navigation bar */
+        .navbar {
+            overflow: hidden;
+            padding-left: 270px;
+}
+
+
+        /* Navigation bar links */
+        .ch {
+            float: left;
+            font-size: 16px;
+            margin-left: 80px;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Dropdown container */
+        .dropdown {
+            float: left;
+            overflow: hidden;
+            margin-left: 80px;
+        }
+
+        /* Dropdown button */
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: black;
+            background-color: inherit;
+            margin: 0;
+            padding: 14px 16px;
+            cursor: pointer;
+        }
+
+        /* Dropdown content (hidden by default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        /* On hover, display the dropdown content */
+        .dropdown:hover .dropdown-content {
+            display: block;
+            color: white;
+
+        }
+          .s1:hover{
+            background-color:#a7a1a1 ;
+            color:white;
+        }
+        .s2:hover{
+            background-color: #a7a1a1;
+            color:white;
+        }
+        .s3:hover{
+            background-color: #a7a1a1;
+            color:white;
+        }
+
+.container {
+    float:left;
+    background-color:#5cb2e8; ;
+    padding: 20px;
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 3%;
+    width:94%;
+    position: relative;
+    bottom:110px;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+ .j1{
+    width: 10%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.j2 {
+    font-family: 'Playfair Display', serif;
+            color: black;
+            
+        }
+
+
+button {
+    font-family: 'Playfair Display', serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#output {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.pic {
+  position: relative;
+  text-align: center; 
+  
+}
+.h4{
+    transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+.centered {
+color: white;
+text-shadow: 1px 2px #000000;
+  position: absolute;
+  font-size: 80px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+
+.cente {
+    color: white;
+    text-shadow: 1px 1px #000000;
+  position: absolute;
+  font-size: 30px;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+.cent {
+    color: white;
+    text-shadow: 2px 0px #000000;
+  position: absolute;
+  font-size: 20px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.cen {
+    color: white;
+    text-shadow: 2px 0px #000000;
+  position: absolute;
+  font-size: 20px;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cena {
+    color: white;
+    text-shadow: 2px 0px #000000;
+  position: absolute;
+  font-size: 20px;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 2s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 5s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 5s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(4) {
+  animation: fade-in 6s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(5) {
+  animation: fade-in 6s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(6) {
+  animation: fade-in 8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  margin-left: 3%;
+  width: 40%;
+  padding: 0px 5px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+.colum {
+  float: left;
+  
+  width: 27%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+.colu {
+  float: left;
+  
+  width: 27%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+</style>
+
+
+</head>
+<body>
+<div class="p">
+    <div class="c1">
+        <i class="fa-brands fa-facebook fa-sm" style="color: #0f0f0f;"></i>&nbsp;|&nbsp;
+        <i class="fa-brands fa-twitter fa-sm" style="color: #0f0f0f;"></i>&nbsp;|&nbsp;
+        <i class="fa-brands fa-youtube fa-sm" style="color: #0f0f0f;"></i>&nbsp;|&nbsp;
+        <i class="fa-brands fa-instagram fa-sm" style="color: #0f0f0f;"></i>
+        </div>
+        <div class="c2">
+            <i class="fa-regular fa-star fa-sm" style="color: #0d0d0d;" > </i>&nbsp;OUR SERVICE&nbsp;&nbsp; 
+            <i class="fa-solid fa-location-dot fa-sm" style="color: #000000;"></i>&nbsp;CONTACT US
+        </div>
+</div>
+    
+      <img src="image\1693831586-removebg-preview (2).png" style="width: 15%;margin-left: 43%;">
+      <div class="navbar">
+        <a href="#home" class="ch" style="color: #17a1f7;">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Rooms
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <div class="s1"><a href="#service1">Single Room</a></div>
+                <div class="s2"><a href="#service3" >Deluxe Room</a></div>
+                <div class="s3"><a href="#service2">Luxury Room</a></div>
+            </div>
+        </div>
+        <a href="#about" class="ch">About</a>
+        <a href="#contact" class="ch">Contact</a>
+    </div>
+    <div class="pic">
+    <img src="image\cavo.webp" style="width:94%;height:500px;margin-left:3%">
+    <div class="centered"><span>MOON LIT</span></div>
+    
+    <h4>
+    <div class="cent"><span>SOS Nagar</span> <span>Bheemili</span> </div>    
+    <div class="cen"><span>Visakhapatnam,</span><span> 531163</span></div> 
+    <div class="cena"><span><rs-layer id="slider-6-slide-15-layer-6" class="rev-btn rs-pxl-4 rs-layer rs-waction rs-wclickaction" data-type="button" data-xy="x:c;y:m;yo:135px,150px,100px,100px;" data-text="s:11,13,13,13;l:12,13,13,13;ls:4px,0,0,0;" data-actions="o:click;a:simplelink;target:_self;url:#;" data-rsp_bd="off" data-padding="t:15;r:35;b:15;l:35;" data-border="bos:solid;boc:#ffffff;bow:1px,0px,1px,0px;" data-frame_0="sX:0.9;sY:0.9;" data-frame_1="e:power2.out;st:3850;sp:1500;sR:3850;" data-frame_999="x:0;y:0;z:0;sX:0.75;sY:0.75;o:0;rX:0;rY:0;rZ:0;skX:0;skY:0;e:power1.in;st:w;sp:500;sR:3650;" data-frame_hover="c:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:1px,0px,1px,0px;oX:50;oY:50;e:power1.inOut;" style="z-index: 8; font-family: Lato; cursor: pointer; height: auto; width: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: left; line-height: 12px; letter-spacing: 4px; font-weight: 400; font-size: 11px; border-color: rgb(255, 255, 255); border-style: solid; border-width: 1.3px 0px; padding: 15px 35px; transform-origin: 106.464px 21.6667px; opacity: 1; transform: perspective(600px); visibility: visible; border-radius: 0px;" data-idcheck="true" data-stylerecorder="true" data-initialised="true">ROOMS E SUITES 
+    </rs-layer></span></div> </h4>
+    </div>
+       
+
+
+    <div class="container">
+        <label for="Usser">User Name:</label>
+        <input type="text" class="j1">&nbsp;&nbsp;&nbsp;
+        <label for="checkInDate">Check-In Date:</label>
+        <input type="date" id="checkInDate" class="j1">&nbsp;&nbsp;&nbsp;
+        <label for="checkOutDate">Check-Out Date:</label>
+        <input type="date" id="checkOutDate" class="j1">&nbsp;&nbsp;&nbsp;
+            <label for="Rooms">Rooms:</label>
+            <select name="Rooms" id="Rooms" class="j1">
+                <option value="volvo" class="j1">-----</option>
+                <option value="saab"  class="j1">Single room</option>
+                <option value="opel"  class="j1">Deluxe room</option>
+                <option value="audi"  class="j1">Luxury room</option>
+              </select>&nbsp;&nbsp;&nbsp;
+        <button id="checkAvailability" style="background-color: #333;color: #f0f0f0 ;">&nbsp;&nbsp;&nbsp;Check Availability</button>
+        <div id="output"></div>
+    </div>
+
+    <div class="row">
+        <div class="column" >
+          
+         <span><img src="image\para15.jpg" style="width: 112%;height: 500px;"></span>
+        </div>
+        <div class="colum" >
+          <h2>&#127809; Hotel</h2><br>
+          <p>The MOON LIT Hotel brings you a chance <br>to play and unwind in a truly<br> stunning environment. <br>
+            <br>
+            Our hotel offers a memorable<br> vacation destination filled with<br> fun, relaxation and memories.</p>
+            <br>
+            <br>
+            <h3>Our amenities and services:</h3>
+            <br>
+            
+          <p>  &#9989;Luxurious  accommodations with<br>&nbsp;&nbsp;&nbsp; LED HD TVs and mini refrigerators<br>
+            <br>
+            &#9989;Hot Breakfast Buffet <br>
+            <br>
+            &#9989;We are now pet-friendly!
+        <br>
+        <br>
+        &#9989;Complimentary Wi-Fi access</p>
+        </div>
+        <div class="colu" >
+            <br>
+            <br>      
+        <p>
+            We harness the power of nature, wellness,<br> creativity, and exploration to lay bare an<br>
+             unimaginable euphoria during your stay,<br> offering you more than just a <br>luxury Hotel in Vizag.<br>
+             <br>
+             Life vibrates with a rhythm and we tune our surroundings to fall perfectly in sync.
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             &#9989;Heated outdoor pool<br>
+             <br>
+             &#9989;Bike rental<br>
+             <br>
+             &#9989;King Beds<br>
+             <br>
+        </p>
+        </div>
+      </div>
+      
+
+
+    <script>
+        // JavaScript code to handle hotel check-in/check-out with date selection
+
+const checkInDateInput = document.getElementById("checkInDate");
+const checkOutDateInput = document.getElementById("checkOutDate");
+const checkAvailabilityBtn = document.getElementById("checkAvailability");
+const output = document.getElementById("output");
+
+checkAvailabilityBtn.addEventListener("click", function () {
+    const checkInDate = new Date(checkInDateInput.value);
+    const checkOutDate = new Date(checkOutDateInput.value);
+
+    if (checkInDate >= checkOutDate) {
+        output.textContent = "Invalid date selection. Check-Out date must be later than Check-In date.";
+    } else {
+        const numNights = Math.ceil((checkOutDate - checkInDate) / (1000 * 60 * 60 * 24));
+        output.textContent = `You've selected ${numNights} night(s).`;
+    }
+});
+
+    </script>
+    </body>
+    </html>

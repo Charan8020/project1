@@ -1,0 +1,101 @@
+body{margin:0;
+    font-family: 'Playfair Display', serif;
+    }
+  img{width: 100%; max-height: 100%; overflow: hidden;display: block; }
+
+  .container {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    font-size:x-large;
+  }
+  
+  .text-block {
+    position: absolute;
+   top: 15%;
+   left: 8%;
+    background-color: rgb(239, 232, 232);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.8;
+  }
+  .tex {
+    position: absolute;
+   top: 70%;
+   left: 8.5%;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.8;
+  }
+  .anchor {
+    background-color: #ddd;
+   font-size: large;
+   
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  .anchor:hover {
+    background-color: #9e9999;
+  }
+
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  #password,#Cpassword{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .password
+    {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .cont {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+  }

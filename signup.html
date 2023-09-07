@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Sign Up</title>
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Crimson+Text:ital@1&family=Indie+Flower&family=Kalam&family=Metal&family=Nanum+Myeongjo&family=Playfair+Display&family=Roboto+Condensed&family=Roboto:wght@300;400&family=Seaweed+Script&family=Text+Me+One&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        function validateForm() {
+            var firstname = document.forms["reg"]["firstname"].value;
+            var lastname = document.forms["reg"]["lastname"].value;
+            var phone = document.forms["reg"]["phone"].value;
+            var email = document.forms["reg"]["email"].value;
+            var pwd = document.forms["reg"]["pwd"].value;
+            var cpwd = document.forms["reg"]["cpwd"].value;
+
+            if (firstname === "") {
+                alert("Please enter First Name");
+                return false;
+            } else if (firstname.length < 5) {
+                alert("First Name should be at least 5 characters");
+                return false;
+            }
+
+            if (lastname === "") {
+                alert("Please enter Last Name");
+                return false;
+            } else if (lastname.length < 5) {
+                alert("Last Name should be at least 5 characters");
+                return false;
+            }
+
+            if (phone === "" || isNaN(phone) || phone.length !== 10) {
+                alert("Please enter a valid 10-digit Phone Number");
+                return false;
+            }
+
+            if (email === "") {
+                alert("Please enter Email");
+                return false;
+            }
+
+            if (pwd === "") {
+                alert("Please enter Password");
+                return false;
+            } else if (pwd.length < 8) {
+                alert("Password should be at least 8 characters");
+                return false;
+            }
+
+            if (cpwd === "") {
+                alert("Please confirm Password");
+                return false;
+            } else if (cpwd.length < 8) {
+                alert("Password confirmation should be at least 8 characters");
+                return false;
+            } else if (pwd !== cpwd) {
+                alert("Password and Confirm Password do not match");
+                return false;
+            }
+
+            return true; // Form submission will proceed if validation passes
+        }
+    </script>
+</head>
+<body>
+    <img src="image\hotel-banner.63885da4032201.67905415.png" alt="Hotel Banner">
+    <h1 style="font-family: 'Playfair Display', serif; text-align: center;">HOTEL SIGN UP</h1>
+    <p style="font-family: 'Playfair Display', serif; text-align: center;">Experience something new every moment</p>
+    <br>
+    <div class="cont">
+        <form action="regestration.php" method="post" name="reg">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" placeholder="1234567890" required>
+
+            <label for="Email">Email</label>
+            <input type="email" id="Email" name="email" class="password" placeholder="abc@gmail.com" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="pwd" minlength="8" required>
+
+            <label for="password">Confirm Password</label>
+            <input type="password" id="Cpassword" name="cpwd" minlength="8" required>
+
+            <input type="submit" value="Submit" name="check" onClick="return validateForm();">
+        </form>
+    </div>
+</body>
+</html>
